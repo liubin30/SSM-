@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="one:war exploded" />
+      <artifact name="one:war2" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -19,7 +19,7 @@
     <session id="-841823807">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.47" value="1" />
@@ -500,15 +500,16 @@
       <workItem from="1546955555430" duration="1507000" />
       <workItem from="1546957194314" duration="1797000" />
       <workItem from="1546961718432" duration="3643000" />
-      <workItem from="1547000119042" duration="480000" />
+      <workItem from="1547000119042" duration="1129000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13293000" />
+    <option name="totallyTimeSpent" value="13942000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23645681" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
