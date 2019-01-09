@@ -1,0 +1,27 @@
+1、Mysql8 的jdbc.properities的配置有所不同：
+jdbc.driver=com.mysql.cj.jdbc.Driver
+jdbc.url=jdbc:mysql://localhost:3306/ssm?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&useSSL=false
+jdbc.username=root
+jdbc.password=123
+
+2、sping-dao.xml的value设置100s
+<!-- 获取连接超时时间 -->
+        <property name="checkoutTimeout" value="100000"/>
+
+ <!-- 配置连接池属性 -->
+        <property name="driverClass" value="${jdbc.driver}"/>
+        <property name="jdbcUrl" value="${jdbc.url}"/>
+        <property name="user" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+        
+ 3、使用静态资源放行，/表示根目录WEB-INF，*表示下面的文件夹或文件，**表示文件
+  <mvc:resources mapping="/**" location="/**"/>
+    <!-- 2.静态资源默认servlet配置
+        (1)加入对静态资源的处理：js,gif,png
+        (2)允许使用"/"做整体映射
+     -->
+     
+4、web.xml的配置加上，自动弹出该页面
+  <welcome-file-list>
+    <welcome-file>/index.jsp</welcome-file>
+  </welcome-file-list>
